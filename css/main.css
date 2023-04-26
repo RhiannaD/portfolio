@@ -1,0 +1,168 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    
+}
+body{
+    background-color: rgb(76, 55, 55);
+}
+
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: rgb(165, 141, 141);
+    margin: 0;
+    list-style-type: none;
+    width:100%;
+    padding: 20px;
+}
+
+.button{
+    background-color: bisque;
+
+}
+
+
+
+nav{
+    display: block;
+    color:white;
+}
+
+nav a{
+    color:rgb(7, 10, 7);
+    font-style: bold ;
+}
+
+nav a:hover{
+    color:rgb(95, 106, 106);
+}
+
+.hero-image{
+    background-image: url("../images/NYC.jpeg");
+    height:30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text{
+    color:rgb(117, 74, 74);
+    text-align:center;
+    position: absolute;
+    top: 43%;
+    left:43%;
+    transform: translate(-60%,-70%);
+}
+
+#main{
+    width:75%;
+    float:left;
+    height:100%;
+    padding-left:20px;
+    padding-top:20px;
+
+}
+
+
+    
+#figure1{ 
+    width: 250px;
+    padding:25px 30px ;
+
+
+}
+#profile-image{
+    width:100px;
+    border-radius:60%;
+    border:5px solid rgb(139, 85, 89);
+    image-orientation: left;
+}
+
+
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left:0px;
+    
+}
+
+#profile h2{
+    display:inline;
+}
+
+#profile-details:hover{
+    color:rgb(97, 50, 50) ;
+    margin-right: 15%;
+    text-align: center,right;
+}
+
+#contact:hover{
+color: rgb(97, 50, 50)
+}
+
+
+.side-articles{
+    background-color: rgb(203, 186, 165);
+    border-radius: 10px;
+    text-align: center;
+    width:20% ;
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+.main-articles{
+    background-color: rgb(183, 149, 107);
+    font-size: 25px;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form{
+    margin-top:20px;
+}
+
+textarea, input{
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+}
+
+
+#bottom{
+    width: 70%;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    text-align: center;
+    
+  
+    
+    
+}
+
+#img{
+    width: 100%;
+    height: 60%;
+}
+
+figcaption:hover{
+    color: rgb(97, 50, 50);
+
+}
